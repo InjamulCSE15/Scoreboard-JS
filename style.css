@@ -1,0 +1,9 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.scoreboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+}
