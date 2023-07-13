@@ -1,9 +1,35 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+:root {
+    --gray: #ddd;
+    --danger: #ff0000e0;
+    --primary: #0000ffc2;
+}
+
+
 .scoreboard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 300px;
     font-family: 'Quicksand', sans-serif;
+}
+
+.scoreboard-name,
+.scoreboard-score {
+    padding: 10px;
+    text-align: center;
+}
+
+.scoreboard-name {
+    font-weight: bold;
+    border-bottom: 1px solid var(--gray);
+}
+
+.red-team {
+    color: var(--danger);
+}
+
+.blue-team {
+    color: var(--primary);
 }
