@@ -1,7 +1,7 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-.scoreboard {
+html, body {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -18,8 +18,9 @@
 }
 
 
-.scoreboard-score {
-    /* font-size: 2em; */
+.btn {
+    font-size: 1.8em;
+    font-weight: 600;
 }
 
 
