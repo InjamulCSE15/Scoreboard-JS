@@ -1,17 +1,7 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-:root {
-    --gray: #ddd;
-    --danger: #ff0000e0;
-    --primary: #0000ffc2;
-}
-
-
 .scoreboard {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 300px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -23,13 +13,19 @@
 
 .scoreboard-name {
     font-weight: bold;
-    border-bottom: 1px solid var(--gray);
+    font-size: 3em;
+    border-bottom: 1px solid #ddd;
 }
 
-.red-team {
-    color: var(--danger);
+
+.scoreboard-score {
+    /* font-size: 2em; */
 }
 
-.blue-team {
-    color: var(--primary);
-}
+
+
+
+
+
+
+
