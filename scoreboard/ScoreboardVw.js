@@ -6,7 +6,7 @@ export default class ScoreboardVw {
         <div class="row scoreboard justify-content-center">
         <div class="col-6 col-sm-3">
             <div class="scoreboard-name text-danger red-team">${teamOne}</div>
-            <div class="scoreboard-score display-5" data-for-team="one">0</div>            
+            <div class="scoreboard-score display-1 py-5" data-for-team="one">0</div>            
                 <div class="score-control text-center"  data-for-team="one">
                     <button class="btn px-lg-5 px-sm-3 btn-outline-danger">-</button>               
                     <button class="btn px-lg-5 px-sm-3 btn-outline-success">+</button>
@@ -14,7 +14,7 @@ export default class ScoreboardVw {
         </div>
         <div class="col-6 col-sm-3">
             <div class="scoreboard-name text-primary blue-team">${teamTwo}</div>
-            <div class="scoreboard-score display-5" data-for-team="two">0</div>
+            <div class="scoreboard-score display-1 py-5" data-for-team="two">0</div>
             <div class="score-control text-center"  data-for-team="two">
                     <button class="btn px-lg-5 px-sm-3 btn-outline-danger">-</button>              
                     <button class="btn px-lg-5 px-sm-3 btn-outline-success">+</button>                
