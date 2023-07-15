@@ -13,41 +13,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row scoreboard ">
-            <div class="col">
-                <div class="scoreboard-name text-danger red-team">Red Team</div>
-                <div class="scoreboard-score display-5">0</div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <button class="btn btn-block btn-outline-danger"><i class="fa-solid fa-minus"></i></button>
-                    </div>
-                    <div class="col-md-6">
-                        <button class="btn btn-block btn-outline-success"><i class="fa-solid fa-plus"></i></button>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col">
-                <div class="scoreboard-name text-primary blue-team">Blue Team</div>
-                <div class="scoreboard-score display-5">0</div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <button class="btn btn-block btn-outline-danger"><i class="fa-solid fa-minus"></i></button>
-                    </div>
-                    <div class="col-md-6">
-                        <button class="btn btn-block btn-outline-success"><i class="fa-solid fa-plus"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    
+    <div class="container" id="app"></div>    
 
     <!-- Bootstrap v5.2.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <!-- RequiredJS -->
+    <script type="module" src="app.js"></script>
 </body>
 </html>
